@@ -39,3 +39,6 @@ This service can be unable or disable in order to perform the fifth behavior pro
 - **first_behavior.py**: it provides a service that generates a random target position among the six proposed above. Then the new coordinates are saved inside the parameters des_pos_x (the x coordinate of the target position) and des_pos_y (the y coordinate of the target position) in a way that **robot_behaviors** can easily access to them.
 - **user_first_behavior.py**: it provides a service that ask the user to choose a new target position between the six possible proposed above. If the user coorectly select one of them the service save the new coordinates of the target position insde the parameters des_pos_x (the x coordinate of the target position) and des_pos_y (the y coordinate of the target position) in a way that **robot_behaviors** can easily access to them.
 
+
+![rosgraphfinal](https://user-images.githubusercontent.com/93039889/138730710-7d84e065-281a-44ff-bdfb-018389042122.png)
+
