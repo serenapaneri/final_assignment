@@ -28,7 +28,7 @@ def user_position(req):
 	#while the new position is equal to the previous one or
 	#it is an unknown one.
 	while (prev_pos_x == new_pos_x and prev_pos_y == new_pos_y) or (input_ > 6 or input_ < 1):
-		print "Choose one of the 6 position proposed:"
+		print "Choose one of the 6 positions proposed:"
 		print "1 - [-4.0,-3.0]\n2 - [-4.0, 2.0]\n3 - [-4.0, 7.0]\n4 - [5.0, -7.0]\n5 - [5.0, -3.0]\n6 - [5.0, 1.0]"
 		
 		#print the previous target position

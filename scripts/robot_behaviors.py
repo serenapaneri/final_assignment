@@ -147,7 +147,7 @@ def behavior():
 			stop_robot()
 			
 			#next random target position
-			srv_random_target()
+			srv_first_behavior()
 			print ("Random target position [" + str(rospy.get_param('des_pos_x')) + ", " + str(rospy.get_param('des_pos_y')) + "]\n")
 			
 			#if the bug0 algorithm is not activated then use move_base

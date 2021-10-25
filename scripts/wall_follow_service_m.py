@@ -126,7 +126,7 @@ def main():
 
     sub = rospy.Subscriber('/scan', LaserScan, clbk_laser)
 
-    srv = rospy.Service('wall_follower_switch', SetBool, wall_follower_switch)
+    srv = rospy.Service('wall_follower_service', SetBool, wall_follower_switch)
 
     rate = rospy.Rate(20)
     while not rospy.is_shutdown():
